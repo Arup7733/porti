@@ -241,7 +241,7 @@ export default function Home() {
                 skills={[
                   { name: "Spring Boot", icon: <SiSpringboot /> },
                   { name: "Node.js", icon: <SiNodedotjs /> },
-                  { name: "Express.js", icon: <SiExpress /> },
+                  { name: "Next.js.js", icon: <SiExpress /> },
                   { name: "Hibernate", icon: <SiHibernate /> },
                   { name: "RESTful APIs", icon: <Code2 className="w-4 h-4" /> }
                 ]}
@@ -283,6 +283,7 @@ export default function Home() {
                   { name: "OOP" },
                   { name: "Microservices" },
                   { name: "SDLC" },
+                  { name: "Figma" },
                   { name: "Cybersecurity Basics" }
                 ]}
               />
@@ -362,6 +363,15 @@ export default function Home() {
                   "Integrated frontend with backend services and optimized database queries."
                 ]}
               />
+              <ProjectCard 
+                title="Employee Management System"
+                tech={["Java", "Spring Boot", "Hibernate", "MySQL", "HTML", "CSS", "Next.js"]}
+                bullets={[
+                  "Developed a full-stack Employee Management System to handle leave request, approvals, and attendance tracking.",
+                  "Implemented secure role-based authentication for employee, managers, and admins using Spring Security.",
+                  "Built interactive dashboards to monitor employee activity and streamline HR operations."
+                ]}
+              />
             </div>
           </motion.div>
         </section>
@@ -421,6 +431,7 @@ export default function Home() {
               <CertificationCard title="Crash Course on Python" issuer="Google (Coursera)" />
               <CertificationCard title="Full Stack Developer" issuer="Kodnest Technology" />
               <CertificationCard title="Network Basics" issuer="Cisco" />
+              <CertificationCard title="Web Development" issuer="Course" />
             </motion.div>
           </motion.div>
         </section>
