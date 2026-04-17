@@ -20,7 +20,7 @@ import {
   SiJavascript, 
   SiSpringboot, 
   SiNodedotjs, 
-  SiExpress,
+  SiNextdotjs,
   SiReact,
   SiHtml5,
   SiCss,
@@ -28,7 +28,8 @@ import {
   SiMongodb,
   SiGit,
   SiPostman,
-  SiHibernate
+  SiHibernate,
+  SiFigma
 } from "react-icons/si";
 
 const FADE_UP_ANIMATION_VARIANTS = {
